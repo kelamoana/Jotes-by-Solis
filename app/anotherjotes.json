@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "named-deck-236223",
+  "private_key_id": "2b5840962c1e277d6669c95d3ab6db2aeae19bc3",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCQKZncTOs3avaG\nVfJRnP0TX0NFBaKFt5l0Hr5z9ccNV0PzsXHHbwPWJLdVrqcD6WhhtMn+0V0qg90p\ndqogsrYaQ27TEoqxLJne9Domu399I5m109OrC+BfDc/JosZ0iFrg6xTWlfsgkvb5\nPFvks8NpFH0HhAf8I/4gLtNjbQePpKCLPPXIan0T45+N0CzT6lPojYMRaf2Rhjg3\nJAG0CrlKI6JDN1fQ8UV+SImmSJkX/5GgWGo258Z6lFSKu9JmhtgSeZLaNTr9GpHz\nVzoobyYYbhDVzSjaLOHID9KmR95hzDc+a/UjQXinqbVVhNq2Kz9E8lXwWbjYTNIz\nOM9vlwXlAgMBAAECggEAEOlQa096qF2b3dZnPruz1HnwYkBu+FC5Z63TmbbTSvVZ\nu1StjD+xq4VTHHIIlaTj4dJbf9D/pOUjJKIPAxbz1dDjR099hZs90bHEwJZuNjfe\n6D2ZLw+Nmpj8LyMxNKpqPshVAXdGpmOXJVW3UfTkj4cfw6nxZdqzDQNxONCpemgg\neqWFGUHvDfg6jR+wUInjvyiDxGK3gV0uCWjl/gNxbZ1VeRzBzOs9DnpMH2fc/q58\nPwfDcuT5Ms3bedzxivLykH/ABMYtO6FMBRFQLSitkQjP90Zd2/eGEUyZQLmyvDrw\nrO6pldjoEKXuxlDHJRrdbdraKfKU6DArjJwNlIACAQKBgQDAtGkWqWFdICw5szCD\n4X4BDgr1v3vsv6Q/wyR/+e1n/LetdBhYou83tTC2DLShv89r4Pl36UHXvoeg8gVy\nRp8B8ln5r/hktjUA03w00BvIfcpCHOUqSP6310OiHWl4NkeEmPv+Fr6W3UppzA6Z\nk4NLscHLKUuARE6u/BEZPgkD1QKBgQC/g4OyaJddwezsvC5DcfM9ge1G1ILZAjWi\n/TlVRrhf6ypSXQhBuKEFvJgjufHa46j9mwIpF0psvnqC20u01wgm/jcF968NF8t4\n7/6K21xVBchE/wWotkuqUBN/NWQC4DUmh5+ys/yw/VG6etNPDuBXcmoU36v2J6tu\ntfg4tLLR0QKBgH+MaipXvlwXWW5vjmMcM3ybQOHb9jiDuEGD9nrGgD7d5O1n9F1m\nqxOiWDWHP1/4R2BOLpER0UTtlXQP/U7gM4rkUG2V7cErYPXFBWcnf9w6dk9ANObC\nHeatEtUQxqiMtNWtNM2/XDMbEY/pQpigLL1DUNQZ5yFlFPd5XA/rIahpAoGAY37v\n7MBp40vcyyD46BFLTakynJnLYPLE6uij4KndH/gNBL1QjNRe05wnbmgsPowIP7lI\nZhCzmctb2qATtOACXD+2VmNXjnXOQAZvN7S/Q2y9nxre1cffh5wShQQ38UaKVnof\nfbgEj+8LhtZI8cnIw6Wtdyq9LCVv6xSe4NcAEAECgYEAvfjWMIiZe6IjeaeK5xUx\nJDzzmtGGgdlr83sO2HiBHCXn7g6Qd/HsElDWwdnXxt9FOVYpo/BA2ZsBz4Efqwdb\nvYkQY+DjA9jY5IfDnUcOhzJnHEHjgVcgXpZClMtX76zoqJkcCYliF+qsc4qANzXE\nTmC3Q9HmZM34e/UIEREvMp0=\n-----END PRIVATE KEY-----\n",
+  "client_email": "da-sol-lee@named-deck-236223.iam.gserviceaccount.com",
+  "client_id": "112745327718731971323",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/da-sol-lee%40named-deck-236223.iam.gserviceaccount.com"
+}

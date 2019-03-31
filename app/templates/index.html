@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto" rel="stylesheet">
+    <title>Jotes: Jot Down Notes</title>
+</head>
+
+
+<body>
+<div id="header">
+    <div id="nav">
+        <a href="index.html"><p>Home</p></a>
+        <a href="about.html"><p>About</p></a>
+    </div>
+
+    <h1>Jotes</h1>
+    <h4>Jot Down Notes</h4>
+    <p>Upload a .flac file to generate a transcription of your notes<br>
+        with annotated keywords of the most important points of lecture!</p>
+    <div id="file_input">
+        <input type="file"
+               id="audio" name="audio"
+               accept="audio/*">
+    </div>
+</div>
+<div id="body">
+    <div class="row">
+
+        <div id="file_transcription" class="col">
+            <h3>Audio to Text Transcription</h3>
+            {% if transcription %}
+            <p>{{transcription}}</p>
+            {% endif %}
+        </div>
+
+        <div id="keyword_section" class="col">
+            <h3>Keyword Definitions</h3>
+            {% if keywords %}
+            {% for keyword in keywords %}
+            <div class="keyword_definition">
+                <p class="keyword">{{keyword.word}}</p>
+                <p class="definitions">{{keyword.definition}}</p>
+            </div>
+            {% endfor %}
+            {% endif %}
+
+        </div>
+    </div>
+
+    <div class="row">
+            <h4>Extra Resources</h4>
+            {% if resources %}
+            {%for resource in resources%}
+            <p>{{resource}}</p>
+            {%endfor%}
+            {% endif %}
+    </div>
+
+</div>
+</body>
+</html>
