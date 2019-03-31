@@ -8,7 +8,6 @@ from google.cloud import language
 from google.cloud.language import enums
 from google.cloud.language import types
 
-
 def natural_language_api(text):
     client = language.LanguageServiceClient()
 
@@ -18,15 +17,8 @@ def natural_language_api(text):
     lst = []
 
     for entity in entities:
-        # lst.append(entity.name)
-        print(entity.metadata['wikipedia_url'])
-        lst.append({'name': entity.name, 'wiki': entity.metadata.get('wikipedia_url')})
+        lst.append(entity.name)
     return lst
-
-
-def file_to_list(file: str) -> [str]:
-    # file = 'gs://petersaudiofiles/bettersong.flac'
-    return natural_language_api(long_speech_to_text.transcribe_gcs(file))
 
 
 if __name__ == '__main__':

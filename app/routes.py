@@ -12,21 +12,16 @@ def index():
     transcription = ''
     transcription = transcribe_gcs(file_name)
     keywords = []
-    resources = []
     words = natural_language_api(transcription)
-    
+    resources = []
+
     for word in words:
         if len(keywords) == 12:
             break
         try:
-            keywords.append(create_def_dict(word['name']))
-            if word['wiki'] != None:
-                resources.append(word['wiki'])
+            keywords.append(create_def_dict(word))
         except:
             continue
 
     return render_template('index.html', keywords=keywords, transcription=transcription, resources=resources)
 
-@app.route('/about')
-def about():
-    return render_template('about.html')
