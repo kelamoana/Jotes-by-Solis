@@ -4,29 +4,31 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
-    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan|Roboto" rel="stylesheet">
     <title>Jotes: Jot Down Notes</title>
 </head>
 
 
 <body>
 <div id="header">
+    <!--
     <div id="nav">
         <a href="index.html"><p>Home</p></a>
         <a href="about.html"><p>About</p></a>
     </div>
-
-    <h1>Jotes</h1>
+    -->
+    <h1>Jotes! by Solis</h1>
     <h4>Jot Down Notes</h4>
     <p>Upload a .flac file to generate a transcription of your notes<br>
         with annotated keywords of the most important points of lecture!</p>
+
+</div>
+<div id="body">
     <div id="file_input">
         <input type="file"
                id="audio" name="audio"
                accept="audio/*">
     </div>
-</div>
-<div id="body">
     <div class="row">
 
         <div id="file_transcription" class="col">
@@ -50,13 +52,15 @@
         </div>
     </div>
 
-    <div class="row">
+    <div class="row" id="resources">
+        <div id = "colresources">
             <h4>Extra Resources</h4>
             {% if resources %}
-            {%for resource in resources%}
-            <p>{{resource}}</p>
-            {%endfor%}
+                {%for resource in resources%}
+                <a href="{{resource}}"><p class="resource">{{resource}}</p></a>
+                {%endfor%}
             {% endif %}
+        </div>
     </div>
 
 </div>

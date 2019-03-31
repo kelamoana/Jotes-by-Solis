@@ -2,6 +2,8 @@ body {
   font-family: 'Roboto', sans-serif;
   width: 100%;
   margin: 0 auto;
+  background-color: #d1f5ff;
+  padding-bottom: 30px;
 }
 
 #nav p {
@@ -34,17 +36,22 @@ a:visited {
 }
 
 h1 {
-    font-family: 'Permanent Marker', cursive;
-    font-size: 50px;
+    font-size: 75px;
     margin: 10px 0;
+    color: #216fed;
+    font-family: 'Baloo Chettan', cursive;
 }
 
 #header h4 {
     margin: 0 auto;
+    font-size: 20px;
+    color: #ffbf51;
 }
 
 #header p {
     margin-top: 0;
+    font-style: italic;
+    color: #ffbf51;
 }
 
 #body {
@@ -67,13 +74,19 @@ h1 {
 }
 
 #file_transcription {
-  width: 50%;
+  width: 47%;
   border-style: solid;
+  border-color: #216fed;
   padding: 1% 3%;
+  background-color: white;
 }
 
 #keyword_section {
   width: 35%;
+  padding: 8px;
+  background-color: white;
+  border-color: #216fed;
+  border-style: solid;
 }
 
 .keyword_definition p {
@@ -89,10 +102,22 @@ h1 {
   font-weight: bold;
 }
 
-#comments_section {
-  border-style: solid;
-  padding: 1% 3%;
-  width: 100%;
+#resources {
+    text-align: left;
+}
+
+#colresources {
+    width: 100%;
+}
+
+#colresources h4 {
+    margin-bottom: 7px;
+}
+
+#colresources p {
+    display: block;
+    margin: 0;
+    color: #ffbf51;
 }
 
 .aboutimage {
@@ -106,4 +131,11 @@ h1 {
     .aboutimage {
         width: 25%;
     }
+}
+
+.aboutcol {
+    width: 200px;
+}
+.aboutimage {
+    width: 200px;
 }
